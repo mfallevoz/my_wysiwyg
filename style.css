@@ -1,0 +1,33 @@
+body {
+    background: rgb(235, 235, 235);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.editor {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: white;
+}
+
+input{
+    padding:5px 15px; 
+    background:#ffffff; 
+    border:20px solid, black;
+    cursor:pointer;
+    border-radius: 50px;
+}
+
+#textarea {
+    
+    margin: 0 auto;
+    height: 100%;
+    width: 80%;
+    background-color: white;
+    border: 2px solid;
+}
